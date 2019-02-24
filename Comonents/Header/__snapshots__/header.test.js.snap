@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+>
+  <View
+    accessibilityIgnoresInvertColors={true}
+    style={
+      Object {
+        "flexShrink": 1,
+        "height": 150,
+        "justifyContent": "flex-end",
+        "opacity": 0.4,
+        "width": 400,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "testUri": "../../../Comonents/Images/airbnbImage1.jpg",
+        }
+      }
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 0,
+          },
+          Object {
+            "height": 150,
+            "width": 400,
+          },
+          undefined,
+        ]
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 29,
+          "fontWeight": "700",
+          "marginLeft": "10%",
+          "textAlign": "left",
+        }
+      }
+    >
+      Find homes in India 
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "gray",
+          "fontSize": 29,
+          "fontWeight": "700",
+          "marginLeft": "10%",
+          "textAlign": "left",
+        }
+      }
+    >
+      on Airbnb
+    </Text>
+  </View>
+</RCTSafeAreaView>
+`;
